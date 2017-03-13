@@ -1,6 +1,6 @@
-# babel-plugin-op-overload
-##### A babel plugin for Python-style operator overloading in JS
-This plugin is designed for use with the [op-overload babel plugin](https://github.com/wlivengood/babel-plugin-op-overload).
+# op-overload
+##### A helper package for the op-overload babel plugin, which supports Python-style operator overloading in JS
+This package is designed for use with the [op-overload babel plugin](https://github.com/wlivengood/babel-plugin-op-overload).
 The plugin allows babel to replace all calls to binary or unary operators with calls to a function
 exposed by the op-overload package, which looks on the operands for the appropriate "magic method"
 and, if it exists, calls it
